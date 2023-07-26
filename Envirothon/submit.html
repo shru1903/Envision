@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="submitcss.css">
+    <title>Submit Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    body {
+        background-color: #A3D39C;
+    }
+    </style>
+</head>
+<body>
+    <div id="maindiv">
+        <header id="header">
+    <nav id="nas" class="nav">
+    <ul>
+        
+    <li><a href="#">DIY Library</a></li>
+    <li><a href="#">Redeem Greecos</a></li>
+    <li><a href="#">Eco-Tasks</a></li>
+    <li><a href="#">Book-Exchange</a></li>
+
+  
+    
+    </ul>
+    
+    
+    </nav>
+    
+        </header>
+        
+    </div>
+
+
+
+    
+    <div id="sitename">
+        <img id="image" width=50px height= 50px src="envision.jpeg"alt="Envision.png">
+        <span>Envision </span>
+
+    </div>
+
+    <div class="dropdown" id="drp">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            <img src="assets/baseline_account_circle_black_24dp.png" alt="">
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Sign In</a>
+          <a class="dropdown-item" href="#">Log In</a>
+          <a class="dropdown-item" href="#">My Account</a>
+        </div>
+
+    
+      
+
+<div id="coins">
+<img src="assets/green-economy.png" width=30px height= 30px alt="coins:">
+&nbsp &nbsp &nbsp<strong><span id="number">: 0</span></strong> 
+
+</div>
+</div>
+
+
+
+<hr>
+<div id="title">
+    Hey! Have completed this DIY project? Upload the images here! <br>
+    For a <img id="greeco"src="green-economy.png" alt="Greeco.image">
+    Greeco! (Green Currency!)</div> 
+
+
+
+<div id="question1">
+<label for="textarea1">Is there anything that you learned through the process of making it? Did you use any alternatives or found a new way to add something?</label><br>
+<textarea name="textarea" id="textarea1" cols="60" rows="10" required placeholder="Mention the problems, the solutions you came up with and how this project would help the environment. Remember, a good answer is your key to the coin! (in about 100 words)" ></textarea>
+
+
+
+</div>
+
+
+<div id="Image-upload">
+
+    <div id="s1">
+<label for="file1">Upload an Image (required)</label><br>
+    <input class="file-upload-input" type="file" name="fileup" id="file1" onchange="readURL(this)" accept="Image" required>
+    <br></div>
+
+    <div id="s2">
+    <label for="file2">Upload another Image (required)</label><br>
+    <input class="file-upload-input" type="file" name="fileup" id="file2" onchange="readURL(this)" accept="Image" required>
+    <br></div>
+
+    <div id="s3">
+    <label for="file3">Upload an Image</label><br>
+    <input class="file-upload-input" type="file" name="fileup" id="file3" onchange="readURL(this)" accept="Image" required>
+    <br></div>
+
+    <div id="s4">
+    <label for="file4">Upload another Image</label><br>
+    <input class="file-upload-input" type="file" name="fileup" id="file3" onchange="readURL(this)" accept="Image" required>
+</div>
+
+
+<div id="button" class="container">
+    
+    <button type="button" class="btn btn-info btn-block">&nbsp &nbsp &nbsp &nbsp &nbsp  Submit</button>
+  </div>
+  
+
+</div>
+</body>
+</html>
+

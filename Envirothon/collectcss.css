@@ -1,0 +1,162 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#header{
+
+margin: auto;
+font-size: xx-large;
+color: brown;
+text-align: center;
+margin-bottom: 60px;
+background-color: wheat;
+margin-top: -8px;
+position: relative;
+top: 30px;
+height: 60px;
+margin-left: 12px;
+
+
+
+}
+
+#img{
+position: absolute;
+width: 100%;
+z-index: -1;
+height: 66rem;
+
+
+
+}
+
+
+
+#formm{
+    background-color: rgba(238, 130, 238, 0.486);
+    padding-top: 17px;
+    font-weight:500;
+   
+}
+
+.input{
+    margin-bottom: 40px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+#address{
+    margin-top: 50px !important;
+    width: 50rem;
+}
+
+
+.divs{
+    display: block;
+    font-size: x-large;
+    margin-left: 54px;
+}
+
+#phone{
+
+width: 30rem;
+
+}
+
+#cardboard{
+    margin-left: 138px;
+}
+
+#paper{
+    margin-left: 74px;
+}
+
+#plastics{
+    margin-left: 169px;
+}
+
+#Tin{
+    margin-left: 20px;
+}
+
+#Glass{
+    margin-left: 85px;
+}
+
+#electronics{
+    margin-left: 34px;
+}
+
+#bagsplastic{
+    margin-left: 141px;
+}
+
+#Textiles{
+    margin-left: 179px;
+}
+
+
+
+
+.btn{
+
+height: 50px;
+width: 90%;
+background-color:wheat;
+margin-left: 35px;
+font-size: x-large;
+margin-top: 50px;
+
+
+}
+
+#note1{
+    background-color: rgba(255, 99, 71, 0.459);
+    border: 3px solid rgba(255, 99, 71, 0.589);
+    width: 30%;
+    margin-left:30px;
+    margin-top: 200px;
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+
+}
+
+
+#note2{
+    background-color: rgba(255, 99, 71, 0.459);
+    border: 3px solid rgba(255, 99, 71, 0.589);
+    width: 30%;
+    margin-left:394px;
+    margin-top: 200px;
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+
+}
+
+
+body{
+    background-color: rgba(216, 191, 216, 0.425);
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: chocolate;
+}

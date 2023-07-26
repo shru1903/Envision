@@ -1,0 +1,253 @@
+#maindiv{
+
+   
+    top:0;
+    border-radius: 9px;
+    background-color: #05a305
+    ;
+    height: 69px;
+    box-sizing: border-box;
+    padding: 10px;
+    float: right;
+    width: 80%;
+        }
+    
+        #nas li{
+    float:left;
+    list-style-type: none;
+    margin: 0px 12px;
+    font-family: 'Dosis', sans-serif; 
+    font-size: larger;  
+    font-weight: bolder;
+    margin-top: 8px;
+    
+    }
+    
+    #nas ul {
+        overflow: auto;
+        color:black;
+    
+    }
+    
+    #nas ul a{
+        text-decoration: none;
+    
+    
+    }
+    
+    #sitename{
+    
+    
+    font-size:larger ;
+    position: relative;
+    background-color: #05a305;
+    width:fit-content;
+    height: 69px;
+    border-radius: 9px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    padding: 13px;
+    margin-left: 7px;
+    
+    }
+    
+    
+    
+    #image{
+    display: inline;}
+    
+    
+    #sitename span{
+    position: relative;
+    bottom: 2px;
+    
+    }
+    
+    
+    
+    #nas li a:hover{
+    color: rgb(24, 201, 224);
+    
+    }
+    
+    
+    
+    
+    .dropdown{
+        float: right;
+        position:relative;
+        bottom: 65px;
+        margin-right: 30px;
+        margin-top: 10px;
+        background-color: #05a305;
+        color: #05a305;
+        height: 50px;}
+        
+    
+    
+    
+        #coins{
+    
+            background-color: #f0f5c7;
+            border-radius: 12px;
+    position: relative;
+    right: 200px;
+    bottom: 30px;
+    box-sizing: border-box;
+    padding-right: 9px;
+    
+    
+        }
+    
+        #number{
+            color: black;
+        }
+    
+        body{
+    
+            background-color: #A3D39C
+            ;
+        }
+    
+    
+    
+        #inp1{
+    margin-top: 30px;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-right: 0px;
+    border-left: 0px;
+    height: 60px;
+    width: 1300px;
+    display: inline-block;font-size: 50px;
+    text-align: center;
+    background-color:#f0f5c7;
+    margin-left: 35px;
+    border-radius: 24px;
+    text-align: center;
+    box-shadow: 0 0 8px 0 dodgerblue;
+    
+    
+        }
+    
+        #titletext placeholder{
+            font-family: 'Dosis', sans-serif; font-size: larger
+    
+            ;
+        }
+    
+        #titletext{
+            border-top: 2px;
+            border-bottom: 2px;
+    
+        }
+    
+        #nas a{
+    color: rgb(250, 182, 250);
+    
+    
+        }
+    
+        #textline{
+    
+    margin-top: 60px;
+    
+    margin-left: 23%;
+        }
+    
+        #textline label{
+    
+    margin-left: 234px;
+    font-size: larger;
+    font-size: xx-large;
+    
+                
+    
+    
+        }
+    
+        #inp2{
+    width: 1157px;
+    height: 600px;
+    text-align:justify;
+    box-shadow: 0 0 8px 0 darkgoldenrod;
+    font-size: x-large;
+    
+    
+        }
+        #textarea{
+            font-size: 20px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #f8ebe9;
+        }
+    
+        #textline2{
+    
+            margin-top: 80px;
+            
+            margin-left: 7%;
+    margin-bottom: 20px;
+    
+                }
+    
+                #textline2 label{
+    
+                    margin-left: 525px;
+                    font-size: larger;
+                    font-size: xx-large;
+                
+                
+                }
+                    
+                #imagediv1{
+    
+    margin-left: 506px;
+    margin-top: 40px;
+    
+    
+    
+                }
+                
+                #imagediv2{
+    
+    
+    margin-left: 107px;
+    
+                }
+                #imagediv4{
+    
+    
+                    margin-left: 506px;
+                    margin-top: 40px;
+                    
+                                }
+                                #imagediv3{
+    
+    
+                                    
+                                    margin-top: 40px;
+                                    margin-left: 350px;
+                                                }
+    
+    #submitbutton{
+    background-color: seagreen;
+    color: seashell;
+    width: 300px;
+    border-radius: 13px;
+    height: 40px;
+    font-family: cursive;
+    box-shadow: 0 0 8 0 slategrey;
+    
+    }
+    #submit{
+        margin-top: 122px;
+        margin-left: 510px;
+    margin-bottom: 60px;
+    display: inline-block;
+    background-color: rgb(172, 243, 203);
+    }
+    #src{
+        margin: auto;
+        display: block;
+    }
